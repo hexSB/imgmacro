@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Backups
+*.bak
+*.bak[0-9]*
+_backup-*/
+
+# Your own setup: configs, snipped screenshots, recordings and run history.
+# config.example.json is the one config that's shared.
+*.json
+!config.example.json
+*.imgbundle
+templates/
+macros/

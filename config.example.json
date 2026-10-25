@@ -1,0 +1,22 @@
+{
+  "interval": 0.25,
+  "stop_key": "F8",
+  "pause_key": "F7",
+  "rules": [
+    {
+      "name": "accept button",
+      "image": "templates/accept.png",
+      "threshold": 0.85,
+      "action": "click",
+      "cooldown": 2.0
+    },
+    {
+      "name": "afk warning",
+      "image": "templates/afk.png",
+      "region": [0, 0, 1920, 400],
+      "action": "key",
+      "key": "space",
+      "cooldown": 5.0
+    }
+  ]
+}
